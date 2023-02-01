@@ -5,22 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>toDo List</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav>
-            <h1>ToDo list</h1>
-            <img src="/pictures/logo-social.png" alt="logo">
-            <ul>
+            <div class="logo">
+                <img src="/pictures/logo-social.png" alt="logo">
+            </div>
+            
+            
+            <ul class="nav">
                 <li> <a href="/">Home</a> </li>
                 <li> <a href="#">About</a> </li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main class="main">
         <table>
             <tr>
                 <th>Task</th>
@@ -29,23 +33,23 @@
 
             <tr>
                 <td>1</td>
-                <td>Done</td>
+                <td class="done"></td>
             </tr>
 
             <tr>
                 <td>2</td>
-                <td>almost done</td>
+                <td class="uncomp"></td>
             </tr>
 
             <tr>
                 <td>2</td>
-                <td>uncompleted</td>
+                <td class="uncomp"></td>
             </tr>
 
         </table>
     </main>
 
-    <footer>
+    <footer  class="footer">
         <p>&copy;</p>
         <h4>phone number:+962xxxxxxxxx</h4>
     </footer>

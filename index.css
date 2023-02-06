@@ -59,6 +59,8 @@ li a {
 }
 
 .footer{
+    position:absolute;
+    bottom:0;
     background-color: #dddddd;
-    height: 10%;
+    width: 100%;
 }

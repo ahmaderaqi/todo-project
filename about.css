@@ -30,9 +30,22 @@ li a {
     float: left;
 }
 
+.info{
+    display: flex;
+    margin: 100px;
+}
 
+.info2{
+    margin: 100px;
+}
 
-.footer{
-    background-color: #dddddd;
-    height: 10%;
+.content{
+    text-align: center;
+}
+
+.content .design{
+margin: 10px;
+}
+.design input, .design textarea{
+    margin-left: 30px;
 }

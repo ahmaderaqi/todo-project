@@ -8,11 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav>
-            <h1>ToDo list</h1>
-            <img src="/pictures/logo-social.png" alt="logo">
-            <ul>
+            <div class="logo">
+                <img src="/pictures/logo-social.png" alt="logo">
+            </div>
+            
+            
+            <ul class="nav">
                 <li> <a href="/">Home</a> </li>
                 <li> <a href="#">About</a> </li>
             </ul>
@@ -20,21 +23,36 @@
     </header>
 
     <main>
-        <section>
+        <section class="info">
             <img src="/pictures/aa.jpeg" alt="ahmad">
-            <h3>Ahmad Zaher Iraqi</h3>
+            <div class="info2" >
+                <h3>Ahmad Zaher Iraqi</h3>
             <p>I'm a computer engineer, study at yarmouk university, 22 years old</p>
+
+            </div>
+            
         </section>
-        <section>
+        <section class="content">
             <form >
-                <label>Name</label>
+                <div class="design">
+                    <label>Name</label>
                 <input type="text" placeholder="name"><br>
 
-                <label>Email</label>
-                <input type="email" placeholder="email"><br>
+                </div>
 
-                <label>Message</label>
+                <div class="design">
+                    <label>Email</label>
+                <input type="email" placeholder="email"><br>
+                </div>
+
+                <div class="design">
+                    <label>Message</label>
                 <textarea name="Message"  cols="30" rows="10"></textarea>
+                </div>
+                
+
+                
+                
                 <br>
                 <button>Submit</button>
             </form>

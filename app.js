@@ -46,3 +46,4 @@ function printArray(arr){
     }
 }
 printArray(questions);
+
